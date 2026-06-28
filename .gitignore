@@ -297,3 +297,12 @@
 *.wm
 *.wmx
 *.wmd
+
+# Visual Studio
+.vs/
+.vsconfig
+*.sln
+*.slnx
+*.csproj
+*.user
+*.userprefs
