@@ -46,7 +46,7 @@
 * 📦 Jump Pads
 * 🏗️ Moving Platforms
 * 🎮 Unity Input System
-* 🌆 Cyberpunk / Retrowave Environment
+* 🌆 Retrowave Environment
 * 💡 Dynamic Lighting
 * 🔊 Ambient Sound Effects
 
@@ -58,9 +58,10 @@
 | ------------ | ------------------ |
 | `W A S D`    | Move               |
 | `Mouse`      | Look Around        |
-| `Space`      | Jump / Double Jump |
-| `Left Shift` | Sprint / Slide     |
-| `E`          | Interact           |
+| `Space`      | Jump               |
+| `Left Shift` | Sprint             |
+| `C`          | crouch             |
+| `Left Ctrl`  | Sprint             |
 
 ---
 
