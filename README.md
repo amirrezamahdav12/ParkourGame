@@ -30,9 +30,9 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Assets/Screenshots/image1.png" width="32%" alt="Screenshot 1">
-  <img src="Assets/Screenshots/image2.png" width="32%" alt="Screenshot 2">
-  <img src="Assets/Screenshots/image3.png" width="32%" alt="Screenshot 3">
+  <img src="Assets/Screenshots/image1.jpg" width="32%" alt="Screenshot 1">
+  <img src="Assets/Screenshots/image2.jpg" width="32%" alt="Screenshot 2">
+  <img src="Assets/Screenshots/image3.jpg" width="32%" alt="Screenshot 3">
 </p>
 
 ---
@@ -46,7 +46,7 @@
 * 📦 Jump Pads
 * 🏗️ Moving Platforms
 * 🎮 Unity Input System
-* 🌆 Retrowave Environment
+* 🌆 Cyberpunk / Retrowave Environment
 * 💡 Dynamic Lighting
 * 🔊 Ambient Sound Effects
 
