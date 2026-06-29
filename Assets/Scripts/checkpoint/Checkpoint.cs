@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    [RequireComponent]
+    [RequireComponent()]
 }
