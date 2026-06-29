@@ -4,7 +4,7 @@
 
 <p align="center">
 
-![Unity](https://img.shields.io/badge/Unity-6000.4.10f_LTS-black?logo=unity)
+![Unity](https://img.shields.io/badge/Unity-2022.3_LTS-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-.NET-blue)
 ![URP](https://img.shields.io/badge/Render%20Pipeline-URP-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -30,9 +30,9 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Assets/Screenshots/image1.jpg" width="32%" alt="Screenshot 1">
-  <img src="Assets/Screenshots/image2.jpg" width="32%" alt="Screenshot 2">
-  <img src="Assets/Screenshots/image3.jpg" width="32%" alt="Screenshot 3">
+  <img src="Assets/Screenshots/image1.png" width="32%" alt="Screenshot 1">
+  <img src="Assets/Screenshots/image2.png" width="32%" alt="Screenshot 2">
+  <img src="Assets/Screenshots/image3.png" width="32%" alt="Screenshot 3">
 </p>
 
 ---
