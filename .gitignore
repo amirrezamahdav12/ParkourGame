@@ -224,7 +224,6 @@
 # Git LFS
 *.psd
 *.tga
-*.png
 *.jpg
 *.jpeg
 *.gif
@@ -252,7 +251,6 @@
 *.exr
 *.tga
 *.psd
-*.png
 *.jpg
 *.jpeg
 *.tiff
