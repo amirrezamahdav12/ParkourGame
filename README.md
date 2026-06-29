@@ -1,133 +1,191 @@
+````markdown
+# 🏃 Parkour Game
 
-```markdown
-# 🏃‍♂️ Parkour Game
+> A fast-paced 3D parkour game built with **Unity**, featuring fluid movement mechanics, wall running, sliding, double jumping, and cyberpunk-inspired environments.
 
-یک بازی پارکور سه‌بعدی ساخته‌شده با **Unity**، شامل حرکات پویا، وال‌رانینگ، اسلایدینگ، و پرش‌های آکروباتیک در محیطی با فضای سایبرپانکی.
+<p align="center">
 
-![Unity Version](https://img.shields.io/badge/Unity-2022.3+-blueviolet)
+![Unity](https://img.shields.io/badge/Unity-2022.3_LTS-black?logo=unity)
+![C#](https://img.shields.io/badge/C%23-.NET-blue)
+![Pipeline](https://img.shields.io/badge/Render%20Pipeline-URP-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
-
-## ✨ ویژگی‌ها
-
-- **حرکت روان**: کنترل‌های سیال با قابلیت دویدن، پرش، اسلاید و وال‌رانینگ
-- **مکانیک‌های پارکور**: 
-  - Wall Running (دویدن روی دیوار)
-  - Sliding (سر خوردن)
-  - Double Jump (پرش دوگانه)
-  - سکوهای متحرک و پرش‌های کمکی (Jump Pads)
-- **محیط سایبرپانکی**: طراحی با رنگ‌های نئونی و فضای آینده‌نگرانه
-- **سیستم ورودی**: پشتیبانی از **Input System** جدید یونیتی (قابل تنظیم با کیبورد/موس)
-- **جلوه‌های بصری**: 
-  - آسمان‌های Retrowave
-  - نورپردازی داینامیک
-  - افکت‌های صوتی محیطی
+</p>
 
 ---
 
-## 🎮 کنترل‌ها
+## 🎥 Gameplay
 
-| کلید | عمل |
-|------|-----|
-| `WASD` | حرکت |
-| `Space` | پرش (دوبار برای پرش دوگانه) |
-| `Left Shift` | اسلاید / دویدن |
-| `E` | تعامل با اشیا (پرش‌پدها و...) |
-| `Mouse` | چرخاندن دوربین |
+> **Coming Soon**
 
----
+Replace this section with a gameplay GIF:
 
-## 📦 نصب و اجرا
-
-### پیش‌نیازها
-- **Unity 2022.3** یا بالاتر (با پشتیبانی از URP)
-- **Git LFS** (برای فایل‌های حجیم)
-
-### مراحل اجرا
-1. مخزن را کلون کنید:
-   ```bash
-   git clone https://github.com/amirrezamahdav12/ParkourGame.git
-   ```
-2. پروژه را با Unity Hub باز کنید.
-3. صحنه‌ی اصلی را از پوشه‌ی `Assets/Scenes/` اجرا کنید (اگر صحنه‌ای وجود ندارد، می‌توانید خودتان بسازید).
-4. دکمه‌ی **Play** را بزنید و از بازی لذت ببرید!
-
----
-
-## 🗂️ ساختار پروژه
-
+```text
+Assets/Gif/gameplay.gif
 ```
-Assets/
-├── Art/                     # مدل‌ها، بافت‌ها و منابع بصری
-│   ├── models/              # مدل‌های سه‌بعدی (سکوها، کاراکتر و...)
-│   └── packages/            # پکیج‌های آماده (کاراکتر سایبرپانک، کاتانا و...)
-├── Packages/                # پکیج‌های نصب‌شده (DOTween، Retrowave Skies و...)
-├── Plugins/                 # پلاگین‌ها (DOTween)
-├── Scripts/                 # اسکریپت‌های سی‌شارپ
-│   ├── Movement/            # اسکریپت‌های حرکت (پخش‌کننده، وال‌رانینگ، اسلاید)
-│   └── Environment/         # اسکریپت‌های محیطی (سکوهای متحرک، پرش‌پدها)
-├── InputSystem_Actions.inputactions  # تنظیمات ورودی
-└── Scenes/                  # صحنه‌های بازی (در صورت وجود)
+
+Example:
+
+```html
+<p align="center">
+  <img src="Assets/Gif/gameplay.gif" width="90%">
+</p>
 ```
 
 ---
 
-## 🛠️ وابستگی‌ها
+## 📸 Screenshots
 
-- **DOTween** (برای انیمیشن‌های روان)
-- **Unity Input System** (برای کنترل‌های پیشرفته)
-- **Retrowave Skies Lite** (برای افکت‌های آسمان)
-- **Scalable Grid Prototype Materials** (برای محیط‌های آزمایشی)
-
----
-
-## 📜 مجوز
-
-این پروژه تحت مجوز **MIT** منتشر شده است. برای جزئیات بیشتر، فایل `LICENSE` را ببینید.
+<p align="center">
+  <img src="Assets/Screenshots/image1.png" width="32%">
+  <img src="Assets/Screenshots/image2.png" width="32%">
+  <img src="Assets/Screenshots/image3.png" width="32%">
+</p>
 
 ---
 
-## 🤝 مشارکت
+# ✨ Features
 
-اگر ایده‌ای برای بهبود بازی دارید یا باگی پیدا کرده‌اید، خوشحال می‌شوم:
-- یک **Issue** در گیت‌هاب باز کنید.
-- یا یک **Pull Request** بفرستید.
+- 🏃 Fluid First Person Controller
+- 🧗 Wall Running
+- 🛝 Sliding
+- 🚀 Double Jump
+- 📦 Jump Pads
+- 🏗️ Moving Platforms
+- 🎮 Unity Input System
+- 🌆 Cyberpunk Environment
+- 💡 Dynamic Lighting
+- 🔊 Environmental Audio
 
 ---
 
-## 📧 تماس
+# 🏗 Architecture
 
-- **سازنده**: امیررضا مهدوی
-- **گیت‌هاب**: [amirrezamahdav12](https://github.com/amirrezamahdav12)
+```
+Player
+ ├── Input System
+ ├── Movement Controller
+ │    ├── Walking
+ │    ├── Sprint
+ │    ├── Jump
+ │    ├── Double Jump
+ │    ├── Slide
+ │    └── Wall Run
+ │
+ ├── Camera Controller
+ └── Interaction System
+```
+
+The movement system is built around modular components, making it easy to extend with mechanics like climbing, grappling, or vaulting.
 
 ---
 
-**🌟 اگر از پروژه خوشتان آمد، به آن ستاره (⭐) بدهید!**
+# 🗺 Roadmap
+
+- [x] Basic Movement
+- [x] Sliding
+- [x] Wall Running
+- [x] Double Jump
+- [x] Jump Pads
+- [ ] Vaulting
+- [ ] Climbing
+- [ ] Grappling Hook
+- [ ] Save System
+- [ ] Main Menu
+- [ ] Settings Menu
+- [ ] Enemy AI
+- [ ] Checkpoints
+- [ ] Sound Options
+- [ ] Multiplayer
+
+---
+
+# ⚠ Known Issues
+
+- Wall Running can occasionally lose momentum on sharp corners.
+- Audio balancing is still under development.
+- Some placeholder assets are still being used.
+
+---
+
+# 📂 Project Structure
+
+```text
+ParkourGame
+│
+├── Assets
+│   ├── Art
+│   ├── Audio
+│   ├── Materials
+│   ├── Prefabs
+│   ├── Scenes
+│   ├── Scripts
+│   │    ├── Movement
+│   │    ├── Environment
+│   │    ├── Managers
+│   │    └── UI
+│   └── InputSystem_Actions.inputactions
+│
+├── Packages
+├── ProjectSettings
+└── README.md
 ```
 
 ---
 
-## دستورات برای اضافه کردن به گیت
+# 📚 Dependencies
 
-پس از ذخیره‌ی فایل `README.md` در ریشه‌ی پروژه، دستورات زیر را در ترمینال اجرا کنید:
-
-```bash
-git add README.md
-git commit -m "Add README.md with project documentation"
-git push -u origin main
-```
+- DOTween
+- Unity Input System
+- Retrowave Skies Lite
+- Scalable Grid Prototype Materials
 
 ---
 
-## نکته‌ی اضافی: افزودن تصاویر
+# 🤝 Contributing
 
-اگر می‌خواهید اسکرین‌شات یا گیف از بازی در README قرار دهید، تصاویر را در پوشه‌ای مثل `Assets/Screenshots/` ذخیره کرده و با دستور زیر به README اضافه کنید:
+Contributions are always welcome.
 
-```markdown
-![Gameplay](Assets/Screenshots/gameplay.png)
-```
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
 
 ---
 
-اکنون فایل `README.md` آماده‌ی استفاده است. در صورت نیاز به تغییرات بیشتر، خوشحال می‌شوم کمک کنم.
+# 🙏 Credits
+
+Special thanks to the creators of the assets and packages used in this project.
+
+- DOTween
+- Unity Technologies
+- Retrowave Skies Lite
+- Scalable Grid Prototype Materials
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+See the **LICENSE** file for more information.
+
+---
+
+# 👨‍💻 Author
+
+**Amirreza Mahdavi**
+
+GitHub:
+
+https://github.com/amirrezamahdav12
+
+---
+
+<div align="center">
+
+⭐ If you like this project, please consider giving it a Star!
+
+</div>
+````
