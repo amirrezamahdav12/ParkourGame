@@ -4,7 +4,7 @@
 
 <p align="center">
 
-![Unity](https://img.shields.io/badge/Unity-2022.3_LTS-black?logo=unity)
+![Unity](https://img.shields.io/badge/Unity-6000.4.10f_LTS-black?logo=unity)
 ![C#](https://img.shields.io/badge/C%23-.NET-blue)
 ![URP](https://img.shields.io/badge/Render%20Pipeline-URP-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
